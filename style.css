@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Platypi:ital,wght@0,300..800;1,300..800&display=swap');
+
+/* navbar css starts  */
+.navbar {
+    display: flex;
+    width: 100%;
+    height: 70px;
+}
+
+.navbar img {
+    height: 30px;
+    margin-left: 5px;
+}
+
+/* navbar css end  */
+
+/* banner css starts  */
+
+/* banner css end  */
+
+/* icon section starts */
+.iconni {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+    height: 120px;
+    margin-top: 30px;
+}
+
+.iconni a {
+    color: darkslateblue;
+}
+
+.iconni img {
+    height: 40px;
+}
+
+.fa-brands {
+    color: black;
+    font-size: 40px;
+}
+
+/* icon section end */
+
+/* products css starts  */
+.row {
+    justify-content: space-evenly;
+}
+
+/* products css end  */
+
+/* about css starts */
+.about {
+    height: 500px;
+    margin: 30px;
+    position: relative;
+
+}
+
+.about h2 {
+    padding: 200px 70px 0 140px;
+    font-weight: bolder;
+}
+
+.about p {
+    padding: 0 70px 0 140px;
+    font-size: 20px;
+}
+
+.about img {
+    height: max-content;
+    bottom: 40px;
+    position: absolute;
+}
+
+.about button {
+    margin: 0 70px 0 140px;
+    background-color: purple;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+    width: 240px;
+}
+
+/* about css end */
+
+/* business css starts */
+.business {
+    margin-top: 50px;
+}
+
+.card {
+    border-radius: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+
+.business h1 {
+    margin-left: 70px;
+}
+
+.business .card {
+    padding: 0 0 0 0;
+}
+
+/* business css end */
+
+/* contact css starts */
+.contct {
+    margin: 100px 0 0 80px;
+    display: flex;
+    height: 180px;
+}
+
+.contct p {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.contct-icons{
+    margin-left: 120px;
+}
+.contct-icons .fa-brands{
+    font-size: 24px; 
+    margin-left: 25px;
+}
+
+
+/* contact css end */
+
+/* footer css starts */
+.footermicro{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(92, 216, 216);
+}
+
+.footermicro  h4{
+    text-align: left;
+    padding-top: 20px;
+    font-size: 20px;
+    opacity: 0.8;
+}
+
+.flist ul{
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.final{
+    display: flex;
+    font-size: 12px;
+    background-color: rgb(92, 216, 216);
+    padding-top: 20px;
+}
+.final-ul1{
+    display: flex;
+    margin-right: 540px;
+}
+.final-ul1 li{
+    list-style: none;
+    margin-left: 18px;
+}
+.final-ul2{
+    display: flex;
+}
+.final-ul2 li{
+    list-style: none;
+    margin-left: 18px;
+}
+#link img{
+    height: 10px;
+    margin-right: 3px;
+}
+#link{
+    text-decoration: none;
+    color: black;
+    opacity: 0.8;
+}
+#link:hover{
+    text-decoration: underline;
+}
+/* footer css end */
